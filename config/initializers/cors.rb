@@ -7,7 +7,7 @@
 
 Rails.application.config.middleware.insert_before 0, Rack::Cors do
   allow do
-    origins 'https://shielded-inlet-26562.herokuapp.com/'
+    origins 'https://shielded-inlet-26562.herokuapp.com/notices'
 
     resource '*',
       headers: :any,
